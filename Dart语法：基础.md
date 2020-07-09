@@ -473,13 +473,11 @@
    throw 'Out of llamas!';  // 抛出任意对象
    ```
 
-3. **胖箭头简写**
+4. **胖箭头简写**
 
-4. 因为抛出异常只有一行，所以可以使用胖箭头来简写
+   因为抛出异常只有一行，所以可以使用胖箭头来简写
 
-5. ```dart
-   void distanceTo(Point other) => throw UnimplementedError();
-   ```
+   ```void distanceTo(Point other) => throw UnimplementedError();```
 
 2. #### 捕获异常 catch
 
